@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="#FFEEDD"/>
+        <Setter Property="Foreground" Value="#9381FF"/>
+        <Setter Property="BorderBrush" Value="#FFEEDD"/>
+        <Setter Property="FontFamily" Value="Bahnschrift SemiLight SemiCondensed"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <Style x:Key="ButtonNextStyle" TargetType="Button">
+        <Setter Property="Background" Value="#A69DFF"/>
+        <Setter Property="Foreground" Value="#FFEEDD"/>
+        <Setter Property="BorderBrush" Value="#A69DFF"/>
+        <Setter Property="FontFamily" Value="Bahnschrift SemiLight SemiCondensed"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+        <Setter Property="Background" Value="#FCE8D4"/>
+        <Setter Property="Foreground" Value="#9288F1"/>
+        <Setter Property="FontFamily" Value="Bahnschrift SemiLight SemiCondensed"/>
+        <Setter Property="FontSize" Value="36"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+</ResourceDictionary>

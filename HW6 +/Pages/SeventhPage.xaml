@@ -1,0 +1,44 @@
+﻿<Page x:Class="HW6__.Pages.SeventhPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HW6__.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Background="#D8D8FF"
+      Title="SeventhPage">
+
+    <Grid>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Height="192" 
+            TextWrapping="Wrap" 
+            Text="TextBlock" 
+            VerticalAlignment="Top" 
+            Width="614" 
+            FontFamily="Bahnschrift SemiBold SemiCondensed" 
+            FontSize="36"
+            TextAlignment="Center"
+            Name ="Result" Margin="0,55,0,0"/>
+        <Image 
+            HorizontalAlignment="Left" 
+            Height="201" 
+            Margin="295,180,0,0" 
+            VerticalAlignment="Top"
+            Width="357" 
+            Source="/Images/Cry.gif"
+            Name ="CryHomer"
+            />
+        <Image 
+            HorizontalAlignment="Left" 
+            Height="201" 
+            Margin="254,198,0,0" 
+            VerticalAlignment="Top" 
+            Width="357" 
+            Source="/Images/Happy.gif"
+            Name ="HappyAnimals"
+            />
+
+    </Grid>
+</Page>

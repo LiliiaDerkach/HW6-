@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>HW6__</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Cry.gif" />
+    <None Remove="Images\Happy.gif" />
+    <None Remove="Images\Image1.png" />
+    <None Remove="Images\TestPDR2.jpg" />
+    <None Remove="Images\TestPDR3.jpg" />
+    <None Remove="Images\TestPDR4.jpg" />
+    <None Remove="Images\TestPDR5.jpg" />
+    <None Remove="Images\Тест пдр 2.jpg" />
+    <None Remove="Images\Тест ПДР3.jpg" />
+    <None Remove="Pages\Тест пдр 2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Cry.gif">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Happy.gif" />
+    <Resource Include="Images\Image1.png">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\TestPDR2.jpg" />
+    <Resource Include="Images\TestPDR3.jpg" />
+    <Resource Include="Images\TestPDR4.jpg" />
+    <Resource Include="Images\TestPDR5.jpg" />
+    <Resource Include="Pages\Тест пдр 2.jpg">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Pages\Welcome.xaml">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>

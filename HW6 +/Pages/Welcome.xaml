@@ -1,0 +1,31 @@
+﻿<Page x:Class="HW6__.Pages.WelcomeCustom"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HW6__.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Background="#D8D8FF"
+      Title="Welcome">
+    <Grid>
+
+        <Button 
+            Name ="sdsd"
+            Content="Start test" 
+            Margin="294,246,294,124" 
+            Click="ToSecondPage" 
+            FontFamily="Bahnschrift SemiLight SemiCondensed" 
+            FontSize="36" 
+            BorderBrush="#FF096962" 
+            Background="#C582FF"/>
+        <TextBlock 
+            TextWrapping="Wrap" 
+            Text="Вітаємо вас на тестуванні з правил дорожнього руху!" 
+            Margin="52,100,52,229" 
+            FontSize="36"
+            TextAlignment="Center" 
+            FontFamily="Bahnschrift SemiLight SemiCondensed"/>
+    </Grid>
+
+</Page>
